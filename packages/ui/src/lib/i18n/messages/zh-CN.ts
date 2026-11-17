@@ -322,6 +322,7 @@ export const dict: Record<I18nKey, string> = {
   'common.language.arabic': '阿拉伯语',
   'common.language.hebrew': '希伯来语',
   'common.language.italian': '意大利语',
+  'common.language.russian': '俄语',
   'common.language.dutch': '荷兰语',
   'common.revealPath.finder': '在 Finder 中显示',
   'common.revealPath.fileExplorer': '在文件资源管理器中打开',

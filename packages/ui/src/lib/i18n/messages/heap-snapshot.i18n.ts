@@ -192,4 +192,16 @@ export const heapSnapshotI18n = {
     'openCodeStatusDialog.heapSnapshot.pathCopied': 'Percorso copiato',
     'openCodeStatusDialog.heapSnapshot.copyFailed': 'Impossibile copiare il percorso',
   },
+  ru: {
+    'openCodeStatusDialog.heapSnapshot.action': 'Сохранить снимок памяти OpenCode',
+    'openCodeStatusDialog.heapSnapshot.hint': 'Для отчётов о памяти. В файле могут быть API-ключи, промпты и содержимое файлов, поэтому передавайте его приватно.',
+    'openCodeStatusDialog.heapSnapshot.writing': 'Снимок записывается. OpenCode приостановлен до завершения.',
+    'openCodeStatusDialog.heapSnapshot.written': 'Сохранено в {path}',
+    'openCodeStatusDialog.heapSnapshot.failed': 'OpenCode не удалось записать снимок.',
+    'openCodeStatusDialog.heapSnapshot.reveal': 'Показать в папке',
+    'openCodeStatusDialog.heapSnapshot.revealFailed': 'Не удалось открыть папку',
+    'openCodeStatusDialog.heapSnapshot.copyPath': 'Скопировать путь',
+    'openCodeStatusDialog.heapSnapshot.pathCopied': 'Путь скопирован',
+    'openCodeStatusDialog.heapSnapshot.copyFailed': 'Не удалось скопировать путь',
+  },
 } as const;

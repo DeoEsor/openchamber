@@ -80,4 +80,9 @@ export const updateCheckErrorsI18n = {
     'updateDialog.error.checkOffline': 'Impossibile raggiungere GitHub per controllare gli aggiornamenti. Verifica la connessione internet e riprova.',
     'updateDialog.error.checkFailed': 'Impossibile controllare gli aggiornamenti: {detail}',
   },
+  ru: {
+    'updateDialog.error.checkServerError': 'GitHub не отдал файлы обновления (HTTP {status}). Проблема на стороне GitHub; проверку можно повторить через несколько минут.',
+    'updateDialog.error.checkOffline': 'Не удалось связаться с GitHub для проверки обновлений. Нужно проверить подключение к интернету и повторить попытку.',
+    'updateDialog.error.checkFailed': 'Не удалось проверить обновления: {detail}',
+  },
 } as const;

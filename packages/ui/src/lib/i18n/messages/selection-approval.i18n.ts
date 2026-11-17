@@ -80,4 +80,9 @@ export const selectionApprovalI18n = {
     'settings.openchamber.visual.field.selectionApprovalText': 'Testo di approvazione della selezione',
     'settings.openchamber.visual.field.selectionApprovalTextInfo': "Feedback personalizzato per la scorciatoia di approvazione sul testo selezionato dell'assistente. Lascia vuoto per usare il predefinito.",
   },
+  ru: {
+    'chat.textSelection.title.approveSelection': 'Одобрить выделенное',
+    'settings.openchamber.visual.field.selectionApprovalText': 'Текст одобрения выделенного',
+    'settings.openchamber.visual.field.selectionApprovalTextInfo': 'Свой текст для сочетания одобрения выделенного текста ассистента. Оставить пустым, чтобы использовать значение по умолчанию.',
+  },
 };

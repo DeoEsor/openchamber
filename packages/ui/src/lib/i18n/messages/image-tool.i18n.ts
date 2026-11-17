@@ -208,4 +208,17 @@ export const imageToolI18n = {
     'chat.image.download': 'Scarica immagine',
     'chat.image.downloadFailed': "Impossibile salvare l'immagine.",
   },
+  ru: {
+    'settings.openchamber.tools.field.agentImageTool': 'Инструмент изображений агента',
+    'settings.openchamber.tools.field.agentImageToolSummary': 'Разрешить агентам создавать и редактировать изображения выбранной моделью — оплата по тарифам её провайдера.',
+    'settings.openchamber.tools.field.agentImageToolAria': 'Включить инструмент изображений агента',
+    'settings.openchamber.tools.imageModel.label': 'Модель изображений',
+    'settings.openchamber.tools.imageModel.aria': 'Модель изображений',
+    'settings.openchamber.tools.imageModel.placeholder': 'Выбрать модель',
+    'settings.openchamber.tools.imageModel.empty': 'В провайдерах нет моделей изображений',
+    'settings.openchamber.tools.imageModel.loadFailed': 'Не удалось загрузить модели',
+    'settings.openchamber.tools.imageModel.unavailable': '{model} (недоступна)',
+    'chat.image.download': 'Скачать изображение',
+    'chat.image.downloadFailed': 'Не удалось сохранить изображение.',
+  },
 } as const;

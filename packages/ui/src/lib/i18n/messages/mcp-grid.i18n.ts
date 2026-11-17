@@ -208,4 +208,17 @@ export const mcpGridI18n = {
     'settings.mcp.grid.runtimeProvided': 'Fornito da OpenCode',
     'settings.mcp.page.back': 'Tutti i server',
   },
+  ru: {
+    'settings.mcp.grid.actionsAria': 'Действия для {name}',
+    'settings.mcp.grid.searchPlaceholder': 'Поиск серверов',
+    'settings.mcp.grid.addHint': 'Локальная команда или удалённый URL',
+    'settings.mcp.grid.noMatches': 'Нет серверов по запросу «{query}».',
+    'settings.mcp.grid.empty': 'Серверов MCP пока нет.',
+    'settings.mcp.grid.status.disabled': 'Отключён',
+    'settings.mcp.grid.status.pending': 'Подключение',
+    'settings.mcp.grid.status.blockedByPolicy': 'Заблокирован политикой',
+    'settings.mcp.grid.scope.project': 'Проект',
+    'settings.mcp.grid.runtimeProvided': 'Предоставлен OpenCode',
+    'settings.mcp.page.back': 'Все серверы',
+  },
 } as const;

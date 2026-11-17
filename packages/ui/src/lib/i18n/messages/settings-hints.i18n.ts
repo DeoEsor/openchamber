@@ -180,4 +180,15 @@ export const settingsHintsI18n = {
     'settings.remoteInstances.clientAuth.addDevice.transport.lanNeedsDesktopAccess': "Imposta una password per l'interfaccia Desktop e consenti ad altri dispositivi sulla tua rete locale di aprire questa app.",
     'settings.remoteInstances.clientAuth.addDevice.transport.openNetworkSettings': 'Apri impostazioni di rete',
   },
+  ru: {
+    'chat.auto.toast.unavailable.title': 'Авто недоступно',
+    'chat.auto.toast.unavailable.description': 'Ни один провайдер классификации не отвечает, поэтому чат переключился на другую модель.',
+    'chat.auto.toast.unavailable.action': 'Открыть настройки',
+    'smallModel.toast.unavailable.action': 'Открыть настройки',
+    'settings.skills.catalog.add.toast.privateRepoNoIdentity': 'Этот репозиторий приватный. Нужна Git-идентичность с доступом к нему, после чего можно запустить сканирование снова.',
+    'settings.skills.catalog.add.toast.setUpIdentity': 'Настроить идентичность',
+    'settings.skills.catalog.shared.auth.identitiesHint': 'Идентичности настраиваются в Настройки → Git → Идентичности.',
+    'settings.remoteInstances.clientAuth.addDevice.transport.lanNeedsDesktopAccess': 'Требуется пароль Desktop UI и разрешение для других устройств локальной сети открывать это приложение.',
+    'settings.remoteInstances.clientAuth.addDevice.transport.openNetworkSettings': 'Открыть настройки сети',
+  },
 } as const;

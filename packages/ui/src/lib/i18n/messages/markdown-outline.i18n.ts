@@ -96,4 +96,10 @@ export const markdownOutlineI18n = {
     'filesView.preview.outline.noHeadings': 'Nessuna intestazione in questo documento',
     'filesView.preview.outline.noMatches': 'Nessuna intestazione corrispondente',
   },
+  ru: {
+    'filesView.preview.outline.label': 'Структура',
+    'filesView.preview.outline.placeholder': 'Перейти к заголовку…',
+    'filesView.preview.outline.noHeadings': 'В этом документе нет заголовков',
+    'filesView.preview.outline.noMatches': 'Подходящих заголовков нет',
+  },
 };

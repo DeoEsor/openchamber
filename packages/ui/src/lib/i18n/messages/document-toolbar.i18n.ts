@@ -128,4 +128,12 @@ export const documentToolbarI18n = {
     'documentToolbar.wrapLines': 'Testo a capo',
     'documentToolbar.autoSave': 'Salvataggio automatico',
   },
+  ru: {
+    'documentToolbar.moreActions': 'Ещё действия',
+    'documentToolbar.preview': 'Просмотр',
+    'documentToolbar.tableView': 'Таблица',
+    'documentToolbar.treeView': 'Дерево',
+    'documentToolbar.wrapLines': 'Перенос строк',
+    'documentToolbar.autoSave': 'Автосохранение',
+  },
 } as const;

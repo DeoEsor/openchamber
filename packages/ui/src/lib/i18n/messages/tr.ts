@@ -246,6 +246,7 @@ export const dict = {
   'common.language.arabic': 'Arapça',
   'common.language.hebrew': 'İbranice',
   'common.language.italian': 'İtalyanca',
+  'common.language.russian': 'Rusça',
   'common.language.dutch': 'Felemenkçe',
   'common.revealPath.finder': 'Finder\'da göster',
   'common.revealPath.fileExplorer': 'Dosya Gezgini\'nde aç',

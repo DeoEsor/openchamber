@@ -96,4 +96,10 @@ export const linearPanelI18n = {
     'tracker.priority.medium': 'Media',
     'tracker.priority.low': 'Bassa',
   },
+  ru: {
+    'tracker.priority.urgent': 'Срочный',
+    'tracker.priority.high': 'Высокий',
+    'tracker.priority.medium': 'Средний',
+    'tracker.priority.low': 'Низкий',
+  },
 } as const;

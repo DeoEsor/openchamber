@@ -160,4 +160,14 @@ export const diffFindI18n = {
     'diffFind.searchingAria': 'Lettura dei file ancora in corso…',
     'diffFind.failedCount': 'File in cui la ricerca non è riuscita: {count}',
   },
+  ru: {
+    'diffFind.placeholder': 'Поиск в изменениях',
+    'diffFind.nextAria': 'Следующее совпадение',
+    'diffFind.previousAria': 'Предыдущее совпадение',
+    'diffFind.closeAria': 'Закрыть поиск',
+    'diffFind.noMatches': 'Совпадений нет',
+    'diffFind.countAria': '{current} из {total}',
+    'diffFind.searchingAria': 'Файлы ещё читаются…',
+    'diffFind.failedCount': 'Файлов, где поиск не удался: {count}',
+  },
 };

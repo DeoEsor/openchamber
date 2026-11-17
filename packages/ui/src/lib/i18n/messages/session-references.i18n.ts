@@ -64,4 +64,8 @@ export const sessionReferencesI18n = {
     'chat.fileMentionAutocomplete.sessionArchived': 'archiviata',
     'chat.sessionReference.unavailable': 'Quella sessione o quel messaggio non è su questo server, o non è stato possibile leggerlo. Il suo link resta come testo.',
   },
+  ru: {
+    'chat.fileMentionAutocomplete.sessionArchived': 'в архиве',
+    'chat.sessionReference.unavailable': 'Этой сессии или сообщения нет на сервере либо их не удалось прочитать. Ссылка остаётся текстом.',
+  },
 } as const;

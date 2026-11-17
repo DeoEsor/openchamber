@@ -80,4 +80,9 @@ export const usageToolI18n = {
     'settings.openchamber.tools.field.agentUsageToolSummary': 'Consenti agli agenti di controllare i limiti del provider e quando si azzerano.',
     'settings.openchamber.tools.field.agentUsageToolAria': 'Abilita lo strumento di utilizzo agenti',
   },
+  ru: {
+    'settings.openchamber.tools.field.agentUsageTool': 'Инструмент использования агента',
+    'settings.openchamber.tools.field.agentUsageToolSummary': 'Позволяет агентам проверять лимиты провайдера и время их сброса.',
+    'settings.openchamber.tools.field.agentUsageToolAria': 'Включить инструмент использования агента',
+  },
 } as const;

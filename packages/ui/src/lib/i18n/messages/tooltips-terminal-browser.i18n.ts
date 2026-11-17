@@ -144,4 +144,13 @@ export const tooltipsTerminalBrowserI18n = {
     'contextTooltips.terminalBrowser.device.schemeLight': 'Mostra la pagina in modalità chiara',
     'contextTooltips.terminalBrowser.device.schemeDark': 'Mostra la pagina in modalità scura',
   },
+  ru: {
+    'contextTooltips.terminalBrowser.terminal.newTab': 'Новая вкладка терминала',
+    'contextTooltips.terminalBrowser.quickKeys.escape': 'Отправить клавишу Escape',
+    'contextTooltips.terminalBrowser.quickKeys.holdModifier': 'Удерживать {key} для следующей клавиши',
+    'contextTooltips.terminalBrowser.quickKeys.releaseModifier': 'Отпустить {key}',
+    'contextTooltips.terminalBrowser.device.schemeSystem': 'Использовать системное оформление',
+    'contextTooltips.terminalBrowser.device.schemeLight': 'Показать страницу в светлой теме',
+    'contextTooltips.terminalBrowser.device.schemeDark': 'Показать страницу в тёмной теме',
+  },
 };

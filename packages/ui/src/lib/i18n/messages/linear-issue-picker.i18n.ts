@@ -80,4 +80,9 @@ export const linearIssuePickerI18n = {
     'chat.workStatus.linkedIssues.openTrackerItem': 'Apri {identifier} in {provider}',
     'session.newWorktree.actions.startFromTrackerItem': "Un'issue {provider}",
   },
+  ru: {
+    'chat.chatInput.actions.linkTrackerItem': 'Привязать задачу {provider}',
+    'chat.workStatus.linkedIssues.openTrackerItem': 'Открыть {identifier} в {provider}',
+    'session.newWorktree.actions.startFromTrackerItem': 'Задача {provider}',
+  },
 } as const;

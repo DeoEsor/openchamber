@@ -286,6 +286,7 @@ export const dict = {
   'common.language.arabic': 'Arabisch',
   'common.language.hebrew': 'Hebräisch',
   'common.language.italian': 'Italienisch',
+  'common.language.russian': 'Russisch',
   'common.language.dutch': 'Niederländisch',
   'common.revealPath.finder': 'Im Finder anzeigen',
   'common.revealPath.fileExplorer': 'In Datei-Explorer öffnen',

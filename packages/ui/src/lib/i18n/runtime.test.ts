@@ -7,7 +7,7 @@ describe('i18n runtime', () => {
   test('uses the first supported browser language after any unsupported choices', () => {
     const previous = Object.getOwnPropertyDescriptor(globalThis, 'window');
     const win = new Window({ url: 'http://localhost' });
-    Object.defineProperty(win.navigator, 'languages', { value: ['ru-RU', 'uk-UA', 'fr-FR'], configurable: true });
+    Object.defineProperty(win.navigator, 'languages', { value: ['cs-CZ', 'uk-UA', 'fr-FR'], configurable: true });
     Object.defineProperty(globalThis, 'window', { value: win, configurable: true });
     try {
       expect(detectInitialLocale()).toBe('uk');
@@ -21,7 +21,7 @@ describe('i18n runtime', () => {
       expect(detectInitialLocale()).toBe('en');
       Object.defineProperty(win.navigator, 'languages', { value: ['pt-PT', 'fr-CA'], configurable: true });
       expect(detectInitialLocale()).toBe('fr');
-      Object.defineProperty(win.navigator, 'languages', { value: ['ru-RU'], configurable: true });
+      Object.defineProperty(win.navigator, 'languages', { value: ['cs-CZ'], configurable: true });
       expect(detectInitialLocale()).toBe('en');
       Object.defineProperty(win.navigator, 'languages', { value: [], configurable: true });
       expect(detectInitialLocale()).toBe('en');

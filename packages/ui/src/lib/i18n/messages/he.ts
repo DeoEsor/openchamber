@@ -240,6 +240,7 @@ export const dict = {
   'common.language.arabic': 'ערבית',
   'common.language.hebrew': 'עברית',
   'common.language.italian': 'איטלקית',
+  'common.language.russian': 'רוסית',
   'common.language.dutch': 'הולנדית',
   'common.revealPath.finder': 'הצג ב-Finder',
   'common.revealPath.fileExplorer': 'פתח בסייר הקבצים',

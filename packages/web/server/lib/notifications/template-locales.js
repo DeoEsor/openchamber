@@ -351,6 +351,28 @@ const it = {
   shareAnswersTitle: '{count} risposte alle pagine condivise',
 };
 
+const ru = {
+  readyTitle: '{agent_name} готов',
+  readyMessage: '{model_name} выполнила задачу',
+  errorTitle: 'Ошибка инструмента',
+  errorBody: 'Произошла ошибка',
+  questionTitle: 'Требуется ввод',
+  questionBody: 'Агент ждёт ответа',
+  permissionTitle: 'Нужно разрешение',
+  permissionBody: 'Агент ждёт подтверждения',
+  planModeTitle: 'Переход в режим плана',
+  buildModeTitle: 'Переход в режим сборки',
+  reviewCleanTitle: 'Ревью завершено',
+  reviewCleanBody: 'Замечаний не осталось',
+  reviewDisputedTitle: 'Ревью ждёт решения',
+  reviewDisputedBody: 'Часть замечаний всё ещё оспаривается',
+  reviewLimitTitle: 'Ревью остановлено после пяти циклов',
+  reviewLimitBody: 'Остались открытые замечания',
+  reviewFailedTitle: 'Ревью не удалось',
+  shareAnswerTitle: '{label}: ответ на «{title}»',
+  shareAnswersTitle: 'Ответы на общие страницы ({count})',
+};
+
 export const NOTIFICATION_TEXT_BY_LOCALE = {
   en,
   de,
@@ -368,6 +390,7 @@ export const NOTIFICATION_TEXT_BY_LOCALE = {
   ar,
   he,
   it,
+  ru,
 };
 
 const DEFAULT_NOTIFICATION_LOCALE = 'en';

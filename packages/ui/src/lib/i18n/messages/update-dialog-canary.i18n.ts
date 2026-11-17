@@ -160,4 +160,14 @@ export const updateDialogCanaryI18n = {
     'updateDialog.changelog.showMore': 'Mostra altre {count}',
     'updateDialog.changelog.showLess': 'Mostra meno',
   },
+  ru: {
+    'updateDialog.canary.version': '{version} Canary · {date}',
+    'updateDialog.canary.night': 'Canary · {date}',
+    'updateDialog.canary.pair': 'Canary:',
+    'updateDialog.canary.build': '{version} · {date}',
+    'updateDialog.changelog.changeCountSingle': '1 изменение',
+    'updateDialog.changelog.changeCountPlural': '{count} изменений',
+    'updateDialog.changelog.showMore': 'Показать ещё {count}',
+    'updateDialog.changelog.showLess': 'Показать меньше',
+  },
 } as const;

@@ -1,6 +1,6 @@
-export type Locale = 'en' | 'de' | 'fr' | 'nl' | 'zh-CN' | 'zh-TW' | 'uk' | 'es' | 'pt-BR' | 'ko' | 'pl' | 'ja' | 'tr' | 'ar' | 'he' | 'it';
+export type Locale = 'en' | 'de' | 'fr' | 'nl' | 'zh-CN' | 'zh-TW' | 'uk' | 'es' | 'pt-BR' | 'ko' | 'pl' | 'ja' | 'tr' | 'ar' | 'he' | 'it' | 'ru';
 
-export const LOCALES = ['en', 'de', 'fr', 'nl', 'zh-CN', 'zh-TW', 'uk', 'es', 'pt-BR', 'ko', 'pl', 'ja', 'tr', 'ar', 'he', 'it'] as const satisfies readonly Locale[];
+export const LOCALES = ['en', 'de', 'fr', 'nl', 'zh-CN', 'zh-TW', 'uk', 'es', 'pt-BR', 'ko', 'pl', 'ja', 'tr', 'ar', 'he', 'it', 'ru'] as const satisfies readonly Locale[];
 
 export const DEFAULT_LOCALE: Locale = 'en';
 
@@ -21,7 +21,7 @@ export function isRightToLeft(element: Element): boolean {
   return element.closest('[dir="rtl"], [dir="ltr"]')?.getAttribute('dir') === 'rtl';
 }
 
-export const LOCALE_LABEL_KEYS: Record<Locale, 'common.language.english' | 'common.language.french' | 'common.language.dutch' | 'common.language.simplifiedChinese' | 'common.language.traditionalChinese' | 'common.language.ukrainian' | 'common.language.spanish' | 'common.language.brazilianPortuguese' | 'common.language.korean' | 'common.language.polish' | 'common.language.german' | 'common.language.japanese' | 'common.language.turkish' | 'common.language.arabic' | 'common.language.hebrew' | 'common.language.italian'> = {
+export const LOCALE_LABEL_KEYS: Record<Locale, 'common.language.english' | 'common.language.french' | 'common.language.dutch' | 'common.language.simplifiedChinese' | 'common.language.traditionalChinese' | 'common.language.ukrainian' | 'common.language.spanish' | 'common.language.brazilianPortuguese' | 'common.language.korean' | 'common.language.polish' | 'common.language.german' | 'common.language.japanese' | 'common.language.turkish' | 'common.language.arabic' | 'common.language.hebrew' | 'common.language.italian' | 'common.language.russian'> = {
   en: 'common.language.english',
   fr: 'common.language.french',
   nl: 'common.language.dutch',
@@ -38,6 +38,7 @@ export const LOCALE_LABEL_KEYS: Record<Locale, 'common.language.english' | 'comm
   ar: 'common.language.arabic',
   he: 'common.language.hebrew',
   it: 'common.language.italian',
+  ru: 'common.language.russian',
 };
 
 export const LOCALE_STORAGE_KEY = 'openchamber.i18n.v1';
@@ -102,6 +103,10 @@ function supportedLocale(value: string | undefined | null): Locale | undefined {
   }
   if (normalized === 'it' || normalized.startsWith('it-')) {
     return 'it';
+  }
+
+  if (normalized === 'ru' || normalized.startsWith('ru-')) {
+    return 'ru';
   }
   return undefined;
 }

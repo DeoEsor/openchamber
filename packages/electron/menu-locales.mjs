@@ -1,4 +1,4 @@
-import { contextMenuLabels as itContextMenuLabels, menuDictionary as itMenuDictionary } from './menu-locales-it.mjs';
+import { EXTRA_CONTEXT_MENU_LABELS, EXTRA_MENU_DICTIONARIES } from './menu-locales-extra.mjs';
 
 export const MENU_LOCALE_DICTIONARIES = {
   en: {
@@ -1006,7 +1006,7 @@ export const MENU_LOCALE_DICTIONARIES = {
     'hideOthers': '隱藏其他',
     'quit': '退出',
   },
-  it: itMenuDictionary,
+  ...EXTRA_MENU_DICTIONARIES,
 };
 
 export const CONTEXT_MENU_LABEL_DICTIONARIES = {
@@ -1310,7 +1310,7 @@ export const CONTEXT_MENU_LABEL_DICTIONARIES = {
     selectAll: '全選',
     services: '服務',
   },
-  it: itContextMenuLabels,
+  ...EXTRA_CONTEXT_MENU_LABELS,
 };
 
 export const normalizeMenuLocale = (locale) => (Object.hasOwn(MENU_LOCALE_DICTIONARIES, locale) ? locale : 'en');

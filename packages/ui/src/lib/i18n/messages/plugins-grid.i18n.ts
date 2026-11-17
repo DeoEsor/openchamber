@@ -192,4 +192,16 @@ export const pluginsGridI18n = {
     'settings.plugins.grid.scope.project': 'Progetto',
     'settings.plugins.page.back': 'Tutti i plugin',
   },
+  ru: {
+    'settings.plugins.grid.actionsAria': 'Действия для {name}',
+    'settings.common.sidebar.searchPlaceholder': 'Поиск',
+    'settings.common.sidebar.noMatches': 'По запросу «{query}» ничего не найдено.',
+    'settings.plugins.grid.description': 'Плагины OpenCode из npm, локальных путей и файлов плагинов. Откройте плагин, чтобы отредактировать его. Переключатель на карточке принадлежит OpenChamber и действует во всех проектах. Терминальное приложение OpenCode и другие серверы OpenCode всё равно загружают плагин.',
+    'settings.plugins.grid.searchPlaceholder': 'Поиск плагинов',
+    'settings.plugins.grid.addHint': 'Пакет npm или локальный путь',
+    'settings.plugins.grid.noMatches': 'По запросу «{query}» плагинов не найдено.',
+    'settings.plugins.grid.empty': 'Плагинов пока нет.',
+    'settings.plugins.grid.scope.project': 'Проект',
+    'settings.plugins.page.back': 'Все плагины',
+  },
 } as const;

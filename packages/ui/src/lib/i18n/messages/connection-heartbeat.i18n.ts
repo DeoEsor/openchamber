@@ -80,4 +80,9 @@ export const connectionHeartbeatI18n = {
     'mobile.instances.heartbeat.latencyAria': 'Tempo di risposta {ms} ms',
     'mobile.instances.heartbeat.noAnswer': 'Nessuna risposta',
   },
+  ru: {
+    'mobile.instances.heartbeat.latency': '{ms} мс',
+    'mobile.instances.heartbeat.latencyAria': 'Время отклика {ms} мс',
+    'mobile.instances.heartbeat.noAnswer': 'Нет ответа',
+  },
 } as const;

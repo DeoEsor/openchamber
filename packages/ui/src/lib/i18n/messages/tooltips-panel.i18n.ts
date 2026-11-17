@@ -160,4 +160,14 @@ export const tooltipsPanelI18n = {
     'contextTooltips.panel.chooseWalkthroughModel': 'Scegli il modello per questo percorso guidato',
     'contextTooltips.panel.chooseEffort': 'Scegli lo sforzo di ragionamento',
   },
+  ru: {
+    'contextTooltips.panel.showFileTree': 'Показать дерево файлов',
+    'contextTooltips.panel.hideFileTree': 'Скрыть дерево файлов',
+    'contextTooltips.panel.showFileEditor': 'Показать редактор файлов',
+    'contextTooltips.panel.hideFileEditor': 'Скрыть редактор файлов',
+    'contextTooltips.panel.releaseSurface': 'Перестать управлять поверхностью',
+    'contextTooltips.panel.reconnectSurface': 'Переподключиться к поверхности',
+    'contextTooltips.panel.chooseWalkthroughModel': 'Выбрать модель для этого обзора',
+    'contextTooltips.panel.chooseEffort': 'Выбрать уровень рассуждений',
+  },
 };

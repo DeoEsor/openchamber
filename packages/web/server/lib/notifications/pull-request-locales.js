@@ -15,6 +15,7 @@ const titles = {
   ar: { merged: 'تم دمج طلب السحب', closed: 'تم إغلاق طلب السحب', removed: 'لم يعد طلب السحب ينتظر الدمج', 'checks-failed': 'فشلت فحوصات طلب السحب' },
   he: { merged: 'בקשת המשיכה מוזגה', closed: 'בקשת המשיכה נסגרה', removed: 'בקשת המשיכה כבר לא ממתינה למיזוג', 'checks-failed': 'בדיקות בקשת המשיכה נכשלו' },
   it: { merged: 'Pull request unita', closed: 'Pull request chiusa', removed: 'La pull request non attende più il merge', 'checks-failed': 'Controlli della pull request non superati' },
+  ru: { merged: 'Pull request смержен', closed: 'Pull request закрыт', removed: 'Pull request больше не ждёт слияния', 'checks-failed': 'Проверки pull request не пройдены' },
 };
 
 export const pullRequestNotificationTitle = (locale, event) => (titles[locale] ?? titles.en)[event];
